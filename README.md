@@ -29,4 +29,4 @@ Otherwise followed holykeebs guide for soldering GND, 3.3V, SDA, and SCL pins: h
 
 ## Keymap
 
-![Keymap](https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/splitkb_aurora_lily58.svg?raw=true)
+![Keymap](/img/splitkb_aurora_lily58.svg)
