@@ -1,6 +1,6 @@
 # ZMK config files for an Aurora Lily58
 
-<img src="https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081439.jpg?raw=true" alt="Picture of Aurora Lily58 with niceview on left and trackpad on right" width="1000"/>
+![Picture of Aurora Lily58 with niceview on left and trackpad on right](https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081439.jpg?raw=true" alt="Picture of Aurora Lily58 with niceview on left and trackpad on right)
 
 ## Base Setup
 Keymap is based on knucklehead adapted and customized for lily58 layout.
@@ -20,14 +20,13 @@ Removed R1 on cirque circutboard for I2C operations: https://holykeebs.com/produ
 
 Also soldered a wire from DR pad to 1 pin on nicenano for data interupt pin required for ZMK.
 
-<img src="https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/CirquePinout.jpg?raw=true" alt="DR pad location" width="500"/>
-<img src="https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081208.jpg?raw=true" alt="DR pad location" width="500"/>
-<img src="https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081157.jpg?raw=true" alt="DR pad location" width="500"/>
-
+![DR pad location](https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/CirquePinout.jpg?raw=true)
+![DR pad location](https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081208.jpg?raw=true)
+![DR pad location](https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/20240805_081157.jpg?raw=true)
 
 Otherwise followed holykeebs guide for soldering GND, 3.3V, SDA, and SCL pins: https://docs.holykeebs.com/guides/touchpad-module/
 
 
 ## Keymap
 
-<img src="https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/splitkb_aurora_lily58.svg?raw=true" alt="Keymap" width="1000"/>
+![Keymap](https://github.com/heyjva/Knucklehead-zmk-config/blob/main/img/splitkb_aurora_lily58.svg?raw=true)
