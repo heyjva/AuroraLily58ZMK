@@ -7,10 +7,10 @@ manifest:
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
-    - name: zmk
-      remote: badjeff
-      revision: feat/pointers-move-scroll
-      import: app/west.yml
+    #- name: zmk
+    #  remote: badjeff
+    #  revision: feat/pointers-move-scroll
+    #  import: app/west.yml
     - name: zmk-split-peripheral-input-relay
       remote: badjeff
       revision: main
