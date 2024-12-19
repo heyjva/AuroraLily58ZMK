@@ -8,11 +8,9 @@ manifest:
       url-base: https://github.com/englmaxi
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
-    #  remote: badjeff
-    #  revision: feat/pointers-move-scroll
-    #  import: app/west.yml
+      remote: badjeff
+      revision: feat/pointers-move-scroll
+      import: app/west.yml
     - name: zmk-split-peripheral-input-relay
       remote: badjeff
       revision: main
