@@ -7,7 +7,9 @@ manifest:
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
-    #- name: zmk
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
     #  remote: badjeff
     #  revision: feat/pointers-move-scroll
     #  import: app/west.yml
