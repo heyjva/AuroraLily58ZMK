@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: infused-kim
       url-base: https://github.com/infused-kim
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: infused-kim
@@ -16,6 +18,9 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: englmaxi
+      revision: main
+    - name: zmk-split-peripheral-input-relay
+      remote: badjeff
       revision: main
   self:
     path: config
