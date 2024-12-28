@@ -190,10 +190,6 @@
     interrupts = < 42 3 >;
 };
 
-&default_transform {
-    col-offset = <7>;
-};
-
 &pinctrl {
     // This pinctrl state is used for receiving
     // For `UART_TX`, set an unused and unexposed pin
