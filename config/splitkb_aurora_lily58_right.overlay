@@ -559,7 +559,7 @@ kscan: kscan {
 
 &i2c0 {
     status = "okay";
-    mouse_ps20: mouse_ps2@2a {
+    mouse_ps2: mouse_ps2@2a {
         status = "okay";
     };
 };
