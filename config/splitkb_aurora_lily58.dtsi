@@ -1,17 +1,3 @@
-&i2c0 {
-    status = "disabled";
-    glidepoint0: glidepoint@2a {
-        compatible = "cirque,pinnacle";
-        reg = <0x2a>;
-        status = "disabled";
-        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
-
-        sensitivity = "1x";
-        sleep;
-        //no-taps;
-    };
-};
-
 / {
 	/* assign `input-listener` to all pointing devices */
 	/* &glidepoint0 on central, &glidepoint1 on peripheral */

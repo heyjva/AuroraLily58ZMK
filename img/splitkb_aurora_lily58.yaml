@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Ctl+Gui+ 2
-  - Alt+Ctl+Gui+ 3
+  - Alt+Ctl+Gui+2
+  - Alt+Ctl+Gui+3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
