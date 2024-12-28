@@ -32,7 +32,7 @@
     };
 };
 
-&mouse_ps20 {
+&mouse_ps2 {
     status = "okay";
 };
 
