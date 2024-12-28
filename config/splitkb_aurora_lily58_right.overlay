@@ -1,9 +1,5 @@
 #include "splitkb_aurora_lily58.dtsi"
 
-&default_transform {
-    col-offset = <6>;
-};
-
 #define MOUSE_PS2_DRIVER_UART
 #define MOUSE_PS2_PIN_SCL_PRO_MICRO <&pro_micro 3 GPIO_ACTIVE_HIGH>
 #define MOUSE_PS2_PIN_SDA_PRO_MICRO <&pro_micro 2 GPIO_ACTIVE_HIGH>
