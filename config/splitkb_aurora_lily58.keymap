@@ -10,9 +10,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include "macros.dtsi"
-#include "combos.dtsi"
-#include "behaviors.dtsi"
+
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
@@ -35,7 +33,10 @@
 #define DEF 0;
 #define UPE 1;
 #define MSC 2;
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 5
+
+#include "macros.dtsi"
+#include "combos.dtsi"
+#include "behaviors.dtsi"
 
 &msc { acceleration-exponent = <1>; };
 
