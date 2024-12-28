@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: badjeff
-      url-base: https://github.com/badjeff
     - name: englmaxi
       url-base: https://github.com/englmaxi
     - name: infused-kim
@@ -13,9 +11,6 @@ manifest:
       remote: infused-kim
       revision: pr-testing/mouse_ps2_module_base
       import: app/west.yml
-    - name: zmk-split-peripheral-input-relay
-      remote: badjeff
-      revision: main
     - name: kb_zmk_ps2_mouse_trackpoint_driver
       remote: badjeff
       revision: main
