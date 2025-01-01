@@ -41,6 +41,7 @@
 #include "macros.dtsi"
 #include "combos.dtsi"
 #include "behaviors.dtsi"
+#include "mouse_tp.dtsi"
 
 #define HAS_MOUSE_KEYS
 #define HAS_MOUSE_TP
