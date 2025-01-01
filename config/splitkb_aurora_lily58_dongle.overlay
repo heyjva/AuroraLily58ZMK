@@ -33,10 +33,6 @@
     };
 };
 
-&mouse_ps2 {
-    status = "okay";
-};
-
 / {
     /* define virtual input, will be resurrected for emitting input event */
 	/* NOTE: set `device = <&glidepoint>` in `zmk,input-listener` */
