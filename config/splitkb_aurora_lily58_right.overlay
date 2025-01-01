@@ -582,7 +582,7 @@ kscan: kscan {
         /* peripheral side input device, used to... */
 		/*  - be intecepted on peripheral; */
 		/*  - and then, be resurrected as `zmk,virtual-device` on central; */
-        device = <&mouse_ps20>;
+        device = <&mouse_ps2>;
 
         /* channel id, used to be be transfered along with all input events. */
 		/* NOTE 1: pick any 8bit integer. (1 - 255) */
