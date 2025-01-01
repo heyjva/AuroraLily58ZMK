@@ -62,11 +62,11 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,1) RC(4,10) RC(3,6) RC(3,7)
 	/* &glidepoint0 on central, &glidepoint1 on peripheral */
     tpad_central_listener {
         compatible = "zmk,input-listener";
-        device = <&mouse_ps2>;
+        device = <&mouse_ps21>;
 	};
 
     tpad_peripheral_listener {
         compatible = "zmk,input-listener";
-        device = <&mouse_ps21>;
+        device = <&mouse_ps2>;
     };
 };

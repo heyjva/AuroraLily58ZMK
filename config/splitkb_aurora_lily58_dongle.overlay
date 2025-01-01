@@ -52,3 +52,8 @@
 		device = <&mouse_ps21>;
 	};
 };
+
+
+&mouse_ps21 {
+    status = "okay";
+};
