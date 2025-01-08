@@ -45,7 +45,6 @@
 #include <behaviors/mouse_move.dtsi>
 
 
-&sensors { triggers-per-rotation = <12>; };
 &msc { acceleration-exponent = <1>; };
 
 / {
