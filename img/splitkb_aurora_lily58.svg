@@ -433,8 +433,8 @@ path.combo {
     --color--key--border: var(--color--material--teal--100);
 }
 </style>
-<g transform="translate(0, 0)" class="layer-L1">
-<text x="0" y="0" class="label" id="L1">L1</text>
+<g transform="translate(0, 0)" class="layer-Base">
+<text x="0" y="0" class="label" id="Base">Base</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -497,8 +497,8 @@ path.combo {
 </g>
 <g transform="translate(40, 160)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Fn">
-<text x="0" y="0" class="key tap layer-activator">Fn</text>
+<a href="#Functions">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 62%">Functio…</tspan></text>
 </a><text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
@@ -543,9 +543,8 @@ path.combo {
 </g>
 <g transform="translate(1280, 160)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Fn">
-<text x="0" y="0" class="key tap layer-activator">Fn</text>
-</a><use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:close-box"/>
+<text x="0" y="0" class="key tap">Fn</text>
+<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:close-box"/>
 </g>
 <g transform="translate(40, 240)" class="key backspace keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key backspace"/>
@@ -682,15 +681,13 @@ path.combo {
 <g transform="translate(500, 380) rotate(30.0)" class="key keypos-53">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(820, 380) rotate(-30.0)" class="key keypos-54">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(920, 380)" class="key backspace keypos-55">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key backspace tap glyph mdi:backspace"/>
@@ -780,8 +777,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 452)" class="layer-L2">
-<text x="0" y="0" class="label" id="L2">L2</text>
+<g transform="translate(0, 452)" class="layer-Numbers">
+<text x="0" y="0" class="label" id="Numbers">Numbers</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -834,8 +831,8 @@ path.combo {
 </g>
 <g transform="translate(1280, 80)" class="key keypos-11">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<a href="#Game">
-<text x="0" y="0" class="key tap layer-activator">Game</text>
+<a href="#Gaming">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 83%">Gaming</tspan></text>
 </a><text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(40, 160)" class="key trans keypos-12">
@@ -1020,15 +1017,13 @@ path.combo {
 <g transform="translate(500, 380) rotate(30.0)" class="key keypos-53">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(820, 380) rotate(-30.0)" class="key keypos-54">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(920, 380)" class="key trans keypos-55">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
@@ -1117,8 +1112,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 904)" class="layer-Fn">
-<text x="0" y="0" class="label" id="Fn">Fn</text>
+<g transform="translate(0, 904)" class="layer-Functions">
+<text x="0" y="0" class="label" id="Functions">Functions</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key trans keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1175,9 +1170,8 @@ path.combo {
 <g transform="translate(40, 160)" class="key keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#Fn">
-<text x="0" y="34" class="key hold layer-activator">Fn</text>
-</a></g>
+<text x="0" y="34" class="key hold">Fn</text>
+</g>
 <g transform="translate(120, 150)" class="key keypos-13">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
@@ -1229,9 +1223,8 @@ path.combo {
 <g transform="translate(1280, 160)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#Fn">
-<text x="0" y="34" class="key hold layer-activator">Fn</text>
-</a></g>
+<text x="0" y="34" class="key hold">Fn</text>
+</g>
 <g transform="translate(40, 240)" class="key trans keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
@@ -1367,15 +1360,13 @@ path.combo {
 <g transform="translate(500, 380) rotate(30.0)" class="key keypos-53">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(820, 380) rotate(-30.0)" class="key keypos-54">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(920, 380)" class="key trans keypos-55">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
@@ -1424,8 +1415,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(0, 1356)" class="layer-Game">
-<text x="0" y="0" class="label" id="Game">Game</text>
+<g transform="translate(0, 1356)" class="layer-Gaming">
+<text x="0" y="0" class="label" id="Gaming">Gaming</text>
 <g transform="translate(0, 0)">
 <g transform="translate(40, 80)" class="key keypos-0">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1665,9 +1656,8 @@ path.combo {
 <g transform="translate(820, 380) rotate(-30.0)" class="key keypos-54">
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:close-box"/>
-<a href="#L2">
-<text x="0" y="54" class="key hold layer-activator">L2</text>
-</a></g>
+<text x="0" y="54" class="key hold">L2</text>
+</g>
 <g transform="translate(920, 380)" class="key backspace keypos-55">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key backspace tap glyph mdi:backspace"/>

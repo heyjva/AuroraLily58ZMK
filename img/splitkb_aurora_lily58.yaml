@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
-  L1:
+  Base:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -13,7 +13,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '`', s: '~'}
-  - {t: Fn, h: toggle}
+  - {t: Functions, h: toggle}
   - Q
   - W
   - E
@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-tab$$
-  L2:
+  Numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -71,7 +71,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Game, h: toggle}
+  - {t: Gaming, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  Functions:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Ctl+Gui+2
   - Alt+Ctl+Gui+3
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
-  Game:
+  Gaming:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -239,52 +239,52 @@ layers:
 combos:
 - p: [13, 25]
   k: '!'
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [14, 26]
   k: '@'
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [15, 27]
   k: '#'
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [16, 28]
   k: $
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [17, 29]
   k: '%'
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [25, 37]
   k: ^
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [26, 38]
   k: '&'
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [27, 39]
   k: '*'
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [28, 40]
   k: (
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [29, 41]
   k: )
-  l: [L1, L2]
+  l: [Base, Numbers]
 - p: [19, 31]
   k: {h: '-', s: _}
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
 - p: [20, 32]
   k: {h: '=', s: +}
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
 - p: [21, 33]
   k: {h: ;, s: ':'}
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
 - p: [31, 45]
   k: {h: '[', s: '{'}
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
 - p: [32, 46]
   k: {h: ']', s: '}'}
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
 - p: [33, 47]
   k: {h: \, s: '|'}
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
 - p: [18, 19]
   k: $$mdi:play-pause$$
-  l: [L1, L2, Fn]
+  l: [Base, Numbers, Functions]
