@@ -1,7 +1,5 @@
 #include "splitkb_aurora_lily58.dtsi"
 
-#include "minority.dtsi"
-
 / {
    chosen {
       zmk,kscan = &mock_kscan;
