@@ -8,9 +8,7 @@ on:
       - "config/*.dtsi"
       - "config/*.conf"
       - "config/west.yml"
-      - "boards/*.overlay"
-      - "boards/*.conf"
-      - "boards/*.dtsi"
+      - "boards/**"
 
 jobs:
   build:
