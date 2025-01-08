@@ -1127,13 +1127,13 @@ path.combo {
 <g transform="translate(120, 70)" class="key keypos-1">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Alt+Ctl…</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">2</tspan>
+<tspan x="0" dy="-1.0em">Alt+</tspan><tspan x="0" dy="1.0em">Ctl+</tspan><tspan x="0" dy="1.0em">Gui+2</tspan>
 </text>
 </g>
 <g transform="translate(200, 50)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">Alt+Ctl…</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">3</tspan>
+<tspan x="0" dy="-1.0em">Alt+</tspan><tspan x="0" dy="1.0em">Ctl+</tspan><tspan x="0" dy="1.0em">Gui+3</tspan>
 </text>
 </g>
 <g transform="translate(280, 40)" class="key trans keypos-3">
