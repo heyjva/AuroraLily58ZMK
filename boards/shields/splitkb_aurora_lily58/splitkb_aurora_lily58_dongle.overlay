@@ -1,14 +1,16 @@
 #include "splitkb_aurora_lily58.dtsi"
 
-/ {
-    chosen {
-        zmk,kscan = &mock_kscan;
-    };
+#include "minority.dtsi"
 
-    mock_kscan: kscan_1 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
-    };
+/ {
+   chosen {
+      zmk,kscan = &mock_kscan;
+   };
+
+   mock_kscan: mock_kscan_0 {
+      compatible = "zmk,kscan-mock";
+      columns = <0>;
+      rows = <0>;
+      events = <0>;
+   };
 };
