@@ -30,3 +30,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,1) RC(4,10) RC(3,6) RC(3,7)
       events = <0>;
    };
 };
+
+&trackpoint_listener {
+    status = "okay";
+};

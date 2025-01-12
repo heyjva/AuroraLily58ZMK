@@ -40,9 +40,12 @@
 #define MSC 2;
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 5
 
+
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors/mouse_move.dtsi>
+#include "include/mouse_tp.dtsi"
+
 
 
 &msc { acceleration-exponent = <1>; };

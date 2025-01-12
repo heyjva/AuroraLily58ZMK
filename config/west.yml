@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: carrefinho                            # <--- add this
       url-base: https://github.com/carrefinho     # <--- and this
+    - name: infused-kim
+      url-base: https://github.com/infused-kim
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,8 @@ manifest:
     - name: prospector-zmk-module                 # <--- and these
       remote: carrefinho                          # <---
       revision: dev                              # <---
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: infused-kim
+      revision: dev/2024-04-acceleration
   self:
     path: config
