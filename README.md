@@ -6,7 +6,7 @@
 See Cirque-dongle or Curque branch for Cirque Touchpad config. (not updated to current zmk branch)
 
 ## Prospector Dongle
-Added support to use the Prospector Dongle ![Prospector Dongle](/img/dongle.jpg)
+Added support to use the Prospector Dongle ![Prospector Dongle](/img/Dongle.jpg)
 
 https://github.com/carrefinho/prospector
 
