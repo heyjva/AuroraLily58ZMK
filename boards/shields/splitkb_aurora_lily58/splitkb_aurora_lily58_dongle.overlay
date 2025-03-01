@@ -31,6 +31,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,1) RC(4,10) RC(3,6) RC(3,7)
    };
 };
 
-&trackpoint_listener {
+// Enable the tp listener for the central dongle.
+&tpoint_listener {
     status = "okay";
 };
