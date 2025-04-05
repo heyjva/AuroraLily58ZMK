@@ -5,7 +5,6 @@
  */
 
 #include "splitkb_aurora_lily58.dtsi"
-#include "splitkb_aurora_lily58_ps2.dtsi"
 
 / {
     chosen {
@@ -39,13 +38,4 @@
 
 &default_transform {
     col-offset = <6>;
-};
-
-
-// We have the trackpoint on the right peripheral split, so
-// set the actual trackpoint as the device for the peripheral. 
-&tpoint_split { 
-    device = <&tpoint_device>; 
-
-    input-processors = <&zip_xy_swap_mapper>;
 };
