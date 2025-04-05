@@ -2,20 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: carrefinho                            # <--- add this
-      url-base: https://github.com/carrefinho     # <--- and this
-    - name: badjeff
-      url-base: https://github.com/badjeff
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: carrefinho                          # <---
-      revision: dev                              # <---
-    - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: badjeff
+    - name: zmk-dongle-display
+      remote: englmaxi
       revision: main
   self:
     path: config

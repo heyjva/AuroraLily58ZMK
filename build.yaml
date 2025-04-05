@@ -13,8 +13,8 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_lily58_dongle prospector_adapter
+  - board: nice_nano_v2
+    shield: splitkb_aurora_lily58_dongle dongle_display
   - board: nice_nano_v2
     shield: splitkb_aurora_lily58_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
@@ -22,6 +22,4 @@ include:
     shield: splitkb_aurora_lily58_right 
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano_v2
-    shield: settings_reset
-  - board:  seeeduino_xiao_ble
     shield: settings_reset
