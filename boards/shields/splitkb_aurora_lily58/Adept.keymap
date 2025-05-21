@@ -43,22 +43,22 @@
 
         base_layer {
             bindings = <
-&mlt 1 MB4  &mkp MB5   &mo 2  &mkp RCLK
-&mkp LCLK   &mkp MCLK
+                &mlt 1 MB4  &mkp MB5   &mo 2  &mkp RCLK
+                &mkp LCLK   &mkp MCLK
             >;
         };
 
         bluetooth_layer {
             bindings = <
-&trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
-&studio_unlock  &bt BT_CLR
+                &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+                &trans  &bt BT_CLR
             >;
         };
 
         scroll_layer {
             bindings = <
-&trans  &trans  &trans  &trans
-&trans  &trans
+            &trans  &trans  &trans  &trans
+            &trans  &trans
             >;
         };
     };
