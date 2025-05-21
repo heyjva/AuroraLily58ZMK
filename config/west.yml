@@ -4,6 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: grassfedreeve
+      url-base: https://github.com/grassfedreeve
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +16,9 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
+    - name: grassfedreeve
+      url-base: https://github.com/grassfedreeve
+    - name: badjeff
+      url-base: https://github.com/badjeff
   self:
     path: config

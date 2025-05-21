@@ -1,0 +1,47 @@
+layout: {zmk_keyboard: AdeptBLE}
+layers:
+  Default:
+  - {t: '&mkp MB4', h: Bluetooth}
+  - {t: '&mkp MB5', h: Device}
+  - '&mkp MCLK'
+  - {t: '&mkp RCLK', h: Scroll-Momentary}
+  - '&mkp LCLK'
+  - {t: Snipe, h: Scroll-Momentary}
+  Scroll-Momentary:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Scroll-Keep, h: toggle}
+  - {type: held}
+  - {t: Scroll-Keep, h: toggle}
+  - {type: held alternate}
+  Scroll-Keep:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Default, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Default, h: toggle}
+  Device:
+  - $$mdi:progress-download$$
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
+  Bluetooth:
+  - {type: held}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  Snipe:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '&mkp RCLK', h: Scroll-Momentary}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Default, h: toggle}
+combos:
+- p: [2, 3]
+  k: '&mkp RCLK'
