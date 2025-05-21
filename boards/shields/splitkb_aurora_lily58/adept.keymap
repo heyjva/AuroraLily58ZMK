@@ -11,7 +11,8 @@
 &trackball_listener {
     scroller {
         layers = <SCRL>;
-        input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>;
+        // input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>, <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_scaler 1 30>, <&zip_x_scaler 0 1>, <&zip_xy_to_scroll_mapper>;
     };
 };
 
@@ -50,15 +51,15 @@
 
         bluetooth_layer {
             bindings = <
-                &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+                &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
                 &trans  &bt BT_CLR
             >;
         };
 
         scroll_layer {
             bindings = <
-            &trans  &trans  &trans  &trans
-            &trans  &trans
+                &trans  &trans  &trans  &trans
+                &trans  &trans
             >;
         };
     };
