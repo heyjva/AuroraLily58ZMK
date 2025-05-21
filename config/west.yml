@@ -16,9 +16,11 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
-    - name: grassfedreeve
-      url-base: https://github.com/grassfedreeve
-    - name: badjeff
-      url-base: https://github.com/badjeff
+    - name: zmk-keyboards-adept
+      remote: grassfedreeve
+      revision: main
+    - name: zmk-pmw3610-driver
+      remote: badjeff
+      revision: main
   self:
     path: config
