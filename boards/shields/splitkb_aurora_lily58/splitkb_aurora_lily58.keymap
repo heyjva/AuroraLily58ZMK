@@ -32,11 +32,6 @@
 #include "macros.dtsi"
 #include "combos.dtsi"
 
-#define DEF 0;
-#define UPE 1;
-#define MSC 2;
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 5
-
 /*
  * Defines to enable/disable features
  *
