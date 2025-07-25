@@ -35,8 +35,3 @@
             ;
     };
 };
-
-// We don't use the tpoint listener for peripheral left.
-&tpoint_split {
-    status = "disabled";
-};
