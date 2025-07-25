@@ -48,8 +48,6 @@
  */
 
 #include <dt-bindings/zmk/mouse.h>
-#include <behaviors/mouse_keys.dtsi>
-#include "include/mouse_tp.dtsi"
 
 
 
