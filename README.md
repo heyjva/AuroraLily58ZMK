@@ -6,7 +6,7 @@
 See Cirque-dongle or Curque branch for Cirque Touchpad config. (not updated to current zmk branch)
 
 ## Prospector Dongle Updated to zmk-dongle-screen firmware
-Same hardware but changed to firmware here: https://github.com/janpfischer/zmk-dongle-screen/tree/main
+Same hardware but changed to firmware here: https://github.com/janpfischer/zmk-dongle-screen
 
 Added support to use the Prospector Dongle ![Prospector Dongle](/img/Dongle.jpg)
 
